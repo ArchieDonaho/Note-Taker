@@ -10,11 +10,12 @@ router.get('/notes', (req, res) => {
 //post request
 router.post('/notes', (req, res) => {
 
-    validateNote(req.body)
-
-    postNote(req.body, notes)
-
-    res.json(notes)
+    if(!validateNote(req.body)){
+        res.status(400).send('The note is not properly formatted!')
+    } else {
+        newNotes = postNote(req.body, notes)
+        res.json(newNotes)
+    }
 })
 
 module.exports = router;
