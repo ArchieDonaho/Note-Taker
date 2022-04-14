@@ -19,6 +19,10 @@
     {
       "title": "Custom Note 2",
       "text": "this is a description 2"
+    },
+    {
+      "title": "my new note",
+      "text": "here is some data"
     }
   ]
 }
