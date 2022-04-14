@@ -9,7 +9,7 @@ const app = express();
 app.use(express.static('public'));
 //parse incoming string or array data
 app.use(express.urlencoded({ extended: true }));
-//parse incoming JSON data
+//parse incoming JSON data & put it in req
 app.use(express.json());
 
 //api endpoint navigation
