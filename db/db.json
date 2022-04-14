@@ -1,24 +1,9 @@
 {
   "notes": [
     {
-      "title": "Test Title",
-      "text": "Test text",
+      "title": "My First Note",
+      "text": "content",
       "id": "0"
-    },
-    {
-      "title": "Here is my new and improved ",
-      "text": "and this is how it works!",
-      "id": "1"
-    },
-    {
-      "title": "note 3",
-      "text": "note 3",
-      "id": "2"
-    },
-    {
-      "title": "note 4",
-      "text": "note 4",
-      "id": "3"
     }
   ]
 }
